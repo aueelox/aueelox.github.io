@@ -27,7 +27,7 @@
   		<div class="collapse navbar-collapse" id="navbarNavDropdown">
     		<ul class="navbar-nav">
       			<li class="nav-item active">
-        			<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        			<a class="nav-link" href="index.html">Home</a>
       			</li>
       			<li class="nav-item">
         			<a class="nav-link" href="shop.html">Shop</a>
@@ -42,86 +42,47 @@
         			<a class="nav-link" href="gallery.html">Gallery</a>
       			</li>
       			<li class="nav-item">
-        			<a class="nav-link" href="contact.html">Contact Us</a>
+        			<a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
       			</li>
     		</ul>
   		</div>
 	</nav>
 
-    <h1>Welcome to Quirky Penguin Crafts LLC</h1><br>
-    <p>Some sort of fun statment thingy</p>
+    <h1>Contact Us!</h1><br>
+    <p>
+    	You can use the form below to email us, email us directly, or contact us through social media.
+    </p>
+    <p>
+    	If you have an item you would like to purchase, please include the item name and color (if applicable) in the message.
+    </p>
     <hr>
 
-    <!-- Cards -->
+    <!-- Contact Form -->
+    <!-- modify this form HTML and place wherever you want your form -->
+<div class="container">
+<!-- <form action="https://formspree.io/f/{FORMID}}" method="POST"> -->
+	<form action="#" method="POST">
+  	
+  	<div class="mb-3">
+    	<label for="contactname" class="form-label">Name</label>
+    	<input type="text" class="form-control" id="contactname" >
+  	</div>
 
-    <div class="container">
-    	<div class="card-deck">
-	    <div class="row">
+  	<div class="mb-3">
+    	<label for="contactemail" class="form-label">Email address</label>
+    	<input type="email" class="form-control" id="contactemail"> 
+  	</div>
+  	
+  	<div class="mb-3">
+    	<label for="contactmessage" class="form-label">Message</label>
+    	<textarea class="form-control" id="contactmessage" rows="3"></textarea>
+  	</div>
+  	
+  	<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>
 
-	    	<div class="col-sm">    		
-		  		<div class="card h-100 shadow p-3 mb-5 bg-body-tertiary rounded">
-		  			<a class="card-block stretched-link text-decoration-none" style="color:black;" href="shop.html">
-		  				<img class="card-img-top" src="\img\transparent.png" alt="shopping bag with QPC logo">
-		    			<div class="card-body">
-		      				<h5 class="card-title">Shop</h5>
-		      				<p class="card-text">
-		      					See what we currently have available to buy!
-		      				</p>
-		    			</div>
-		    			<div class="card-footer">
-		      				<!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-		    			</div>
-		  			</a>
-		  		</div>
-		  	</div>
-
-	    	<div class="col-sm">    		
-		  		<div class="card h-100 shadow p-3 mb-5 bg-body-tertiary rounded">
-		  			<a class="card-block stretched-link text-decoration-none" style="color:black;" href="about.html">
-		  				<img class="card-img-top" src="\img\headshot.JPEG" alt="picture of the maker">
-		    			<div class="card-body">
-		      				<h5 class="card-title">About Me</h5>
-		      				<p class="card-text">Learn a little bit about the maker!</p>
-		    			</div>
-		    			<div class="card-footer">
-		      				<!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-		    			</div>
-		  			</a>
-		  		</div>
-		  	</div>
-
-		  	<div class="col-sm">
-		  		<div class="card h-100 shadow p-3 mb-5 bg-body-tertiary rounded">
-		  			<a class="card-block stretched-link text-decoration-none" style="color:black;" href="crafts.html">
-		    			<img class="card-img-top" src="/img/scissors.png" alt="picture of scissors">
-		    			<div class="card-body">
-		      				<h5 class="card-title">Crafty Interests</h5>
-		      				<p class="card-text">What kind of crafts do we do?</p>
-		    			</div>
-		    			<div class="card-footer">
-		      				<!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-		    			</div>
-		    		</a>
-	  			</div>
-		  	</div>
-
-	  		<div class="col-sm">
-	  			<div class="card h-100 shadow p-3 mb-5 bg-body-tertiary rounded">
-	  				<a class="card-block stretched-link text-decoration-none" style="color:black;" href="gallery.html">
-		    			<img class="card-img-top" src="/img/portfoliothumbnail.png" alt="collage of crafts">
-		    			<div class="card-body">
-		      				<h5 class="card-title">See Previous Projects</h5>
-		      				<p class="card-text">Finished works, personal and professional. Which is your favorite?</p>
-		    			</div>
-		    			<div class="card-footer">
-		      				<!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-		    			</div>
-		    		</a>
-	  			</div>
-	    	</div>
-	    </div>
-		</div>
-	</div>
+<!-- END Contact Form -->
 
 	<!-- Footer -->
 	<footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
